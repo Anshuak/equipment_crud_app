@@ -7,6 +7,16 @@ import './App.css';
 
 export default function App() {
   return (
-    <Navbar/>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <EquipmentMasterDataForm />
+        </Route>
+        <Route exact path="/displayMasterData">
+          <DisplayMasterData />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
