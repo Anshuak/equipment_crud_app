@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function EquipmentMasterDataForm() {
-  const hostname = "https://phonebook-cloud.herokuapp.com";
+  const hostname = "https://equipmentcrudapp.herokuapp.com/";
   const [equipmentMasterDetails, setEquipmentMasterDetails] = useState({
     Business_Unit: "",
     Plant: "",
@@ -14,7 +14,7 @@ export default function EquipmentMasterDataForm() {
     Due_Date: "",
     Indimitation_Days: "",
     Range: "",
-    Desired_Accuracy: "", 
+    Desired_Accuracy: ""https://github.com/Anshuak/equipment_crud_app/blob/master/client/src/components/EquipmentMasterDataForm.js, 
     Deleted_On: "",
     Status: "",
     Section: "",
