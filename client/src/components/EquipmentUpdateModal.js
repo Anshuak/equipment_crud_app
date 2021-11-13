@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import ModalForm from './ModalForm'
 
 export default function EquipmentUpdateModal(props) {
-  const hostname = "https://phonebook-cloud.herokuapp.com";
+  const hostname = "https://equipmentcrudapp.herokuapp.com/";
   const [details, setDetails] = useState(props.data);
 
   const handleUpdate = async(e)=>{
