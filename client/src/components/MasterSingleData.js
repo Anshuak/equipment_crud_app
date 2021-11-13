@@ -3,7 +3,7 @@ import axios from "axios";
 import EquipmentUpdateModal from "./EquipmentUpdateModal";
 
 export default function MasterSingleData(props) {
-  const hostname = "https://phonebook-cloud.herokuapp.com";
+  const hostname = "https://equipmentcrudapp.herokuapp.com/";
   const data = props.data;
 
   const getDate = (d) => {
