@@ -16,6 +16,10 @@ ConnectToDB();
 // Adding Routes
 app.use('/api/',require('./Routes/T_Equipment_Master_Route'));
 
+if(process.env.NODE_ENV=="production"){
+    app.use(express.static("client/build"));
+}
+
 app.listen(PORT,()=>{
     console.log(`Listening to http://localhost:${PORT}`);
 })
