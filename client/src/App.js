@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import DisplayMasterData from "./components/DisplayMasterData";
 import EquipmentMasterDataForm from "./components/EquipmentMasterDataForm";
 import Navbar from "./components/Navbar";
