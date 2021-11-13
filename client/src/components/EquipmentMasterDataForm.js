@@ -14,7 +14,7 @@ const hostname = "https://equipmentcrudapp.herokuapp.com";
     Due_Date: "",
     Indimitation_Days: "",
     Range: "",
-    Desired_Accuracy: ""https://github.com/Anshuak/equipment_crud_app/blob/master/client/src/components/EquipmentMasterDataForm.js, 
+    Desired_Accuracy: "",
     Deleted_On: "",
     Status: "",
     Section: "",
