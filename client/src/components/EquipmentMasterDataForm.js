@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function EquipmentMasterDataForm() {
-  const hostname = "https://equipmentcrudapp.herokuapp.com/";
+const hostname = "https://equipmentcrudapp.herokuapp.com";
   const [equipmentMasterDetails, setEquipmentMasterDetails] = useState({
     Business_Unit: "",
     Plant: "",
