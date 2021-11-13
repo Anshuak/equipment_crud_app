@@ -3,7 +3,7 @@ import axios from "axios";
 import MasterDataContainer from "./MasterDataContainer";
 
 export default function DisplayMasterData() {
-  const hostname = "https://equipmentcrudapp.herokuapp.com/";
+  const hostname = "https://equipmentcrudapp.herokuapp.com";
   const [updateDetails, setUpdateDetails] = useState({
     Plant: "",
     EquipmentType: "",
