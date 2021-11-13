@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function EquipmentMasterDataForm() {
+  const hostname = "https://phonebook-cloud.herokuapp.com";
   const [equipmentMasterDetails, setEquipmentMasterDetails] = useState({
     Business_Unit: "",
     Plant: "",
